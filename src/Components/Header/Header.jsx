@@ -2,8 +2,8 @@ import { useState } from 'react'
 import { Link, NavLink, useNavigate } from 'react-router-dom'
 import { selectIsAuthenticated } from '../../store/authSlice'
 import {  useSelector } from 'react-redux'
-import logo from "../assets/Logo.png"
-import cartlogo from "../assets/OIP.webp"
+import logo from "../../assets/Logo.png"
+import cartlogo from "../../assets/OIP.webp"
 
 function Header() {
   const [open,setOpen]=useState(false)
