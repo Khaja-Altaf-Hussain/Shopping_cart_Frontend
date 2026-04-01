@@ -8,12 +8,12 @@ import LoginForm from './Components/LoginForm'
 import RegisterForm from './Components/RegisterForm'
 import CartPage from './pages/CartPage'
 import OrderHistoryPage from './pages/OrderHistoryPage'
-import HomePage from './pages/Homepage'
 import Layout from './Components/Layout.jsx'
 import CategoryPage from './pages/CategoryPage.jsx'
 import UserProfilePage from './pages/UserProfilePage.jsx'
 import Logout from './Components/Logout.jsx'
 import ChangePasswordPage from './pages/ChangePasswordPage.jsx'
+import HomePage from './pages/HomePage.jsx'
 
 
 function ProtectedRoute({element}) {
