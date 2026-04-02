@@ -53,7 +53,7 @@ useEffect(() => {
             <div className=' w-full max-w-7xl bg-black rounded-4xl backdrop-blur-7xl  flex flex-col lg:flex-row  overflow-hidden shadow-blue-500/20 shadow-2xl hover:shadow-blue-500/30  '>
                 <div className=' w-full lg:w-1/2 p-4 sm:p-6 flex items-center justify-center'>
                     <img src={product.imageUrl || " "} alt={product.name} 
-                    className=' w-full max-h-[250px] sm:max-h-[350px] lg:max-h-[450px] object-contain rounded-xl shadow-lg transition-transform duration-300 hover:scale-105 ' />
+                    className=' w-full max-h-[250px] sm:max-h-sm lg:max-h-[450px] md:max-h-md object-contain rounded-xl shadow-lg transition-transform duration-300 hover:scale-105 ' />
                 </div>
                 <div className=' w-full lg:w-1/2 p-4 sm:p-6 lg:p-10 flex flex-col justify-center text-amber-200'>
                     <h2 className=' text-amber-300 text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold mb-3'>{product.name}</h2>

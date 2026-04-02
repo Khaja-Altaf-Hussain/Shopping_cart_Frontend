@@ -5,17 +5,17 @@ import logo from "../../assets/Logo.png"
 function Footer() {
   const currentYear= new Date().getFullYear();
   return (
-    <footer className='bg-gradient-to-br from-black/20 via-gray-800 to-black/10 text-amber-200  overflow-hidden '>
-      <div className='mx-auto w-full max-w-screen p-4 py-6 lg:py-4'>
-        <div className=' md:flex md:justify-between '>
+    <footer className='w-full  max-w-full overflow-x-hidden bg-gradient-to-br from-black/20 via-gray-800 to-black/10 text-amber-200   '>
+      <div className='w-full max-w-7xl mx-auto  px-4 sm:px-6 lg:px-8 py-8'>
+        <div className=' flex justify-center lg:justify-start mb-8 '>
           <Link to="/" className=' flex items-center'>
-            <img src={logo} alt="Logo" className='pt-5 ml-10 scale-500 mr-3 h-12' />
+            <img src={logo} alt="Logo" className='scale-190 h-12 sm:h-14' />
           </Link>
         </div>
-        <div className='pl-60 grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3'>
+        <div className=' grid grid-cols-1 sm:grid-cols-2 gap-8  lg:grid-cols-3 text-center sm:text-left'>
           <div>
             <h2 className=' mb-6 text-sm font-semibold text-amber-200 uppercase'>Resourses</h2>
-            <ul className=' text-amber-100 font-medium'>
+            <ul className='space-y-2 text-amber-100 font-medium'>
               <li className=' mb-4'>
                 <Link to="/" className='hover:underline'>Home</Link>
               </li>
@@ -26,7 +26,7 @@ function Footer() {
           </div>
           <div>
             <h2 className=' mb-6 text-sm font-semibold text-amber-200 uppercase'>Follow us</h2>
-            <ul className=' text-amber-100 font-medium'>
+            <ul className='space-y-2 text-amber-100 font-medium'>
               <li className='mb-4'>
                 <Link to="https://github.com/Khaja-Altaf-Hussain" target='_blank' className='hover:underline' >Github
                 </Link>
@@ -39,7 +39,7 @@ function Footer() {
           </div>
           <div>
             <h2 className=' mb-6 text-sm font-semibold text-amber-200 uppercase'>Legal</h2>
-            <ul className=' text-amber-100 font-medium'>
+            <ul className='space-y-2 text-amber-100 font-medium'>
               <li className='mb-4'>
                 <Link to="#" className='hover:underline'>Privacy Policy
                 </Link>
@@ -53,8 +53,8 @@ function Footer() {
         </div>
       </div>
       <hr className=' border-white/20 sm:mx-auto lg:my-8'/>
-      <div className=' pl-30 pb-4 pr-50 sm:flex sm:items-center sm:justify-between'>
-        <span className='  text-sm text-amber-200 sm:text-center'>© {currentYear}
+      <div className='max-w-7xl mx-auto  px-4 sm:px-6 lg:px-8 py-4 flex flex-col sm:flex-col md:flex-row items-center justify-between gap-4 text-center md:text-left'>
+        <span className='  text-sm text-amber-200'>© {currentYear}
           <Link to="https://www.linkedin.com/in/khaja-altaf-hussain-3b6b40347" target='_blank' className='hover:underline' >khajaaltafhussain</Link>
           . All Rights Reserved.
         </span>
